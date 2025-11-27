@@ -1,9 +1,10 @@
-import algorithms.*;
+package algorithms;
 
 public class Main {
-    public static void main(String[] args) {
-        int[] vector = {5, 2, 1, 4, 3};
 
+    public static void main(String[] args) {
+
+        int[] vector = {5, 2, 1, 4, 3};
         System.out.print("Input array: ");
         for (int num : vector) {
         System.out.print(num + " ");
@@ -65,4 +66,5 @@ public class Main {
         System.out.println("<--- Shell Sort ----");
 
     }
+
 }
